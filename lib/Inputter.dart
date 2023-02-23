@@ -1803,38 +1803,6 @@ class InputterPage extends ConsumerWidget {
                                   height: 49,
                                   child: Row(
                                     children: [
-                                      // SizedBox(
-                                      //   width: 25,
-                                      //   child: TextButton(
-                                      //     style: TextButton.styleFrom(
-                                      //         textStyle: const TextStyle(
-                                      //           // fontSize: 20,
-                                      //         )
-                                      //     ),
-                                      //     onPressed: () {},
-                                      //     child: Text(
-                                      //       'B',
-                                      //       style: TextStyle(
-                                      //         fontSize: 25,
-                                      //       ),
-                                      //     ),
-                                      //     // child: const FittedBox(
-                                      //     //   // fit: BoxFit.fitWidth,
-                                      //     //   child: Text(
-                                      //     //     'B',
-                                      //     //     style: TextStyle(
-                                      //     //       // fontSize: 60,
-                                      //     //     ),
-                                      //     //   ),
-                                      //     // ),
-                                      //   ),
-                                      // ),
-                                      // const Text(
-                                      //   'B',
-                                      //   style: TextStyle(
-                                      //     fontSize: 40,
-                                      //   ),
-                                      // ),
                                       GestureDetector(
                                         onTap: () {
                                           var count_ball_opacity_list = ref.watch(CountBallOpacityList.state).state;
@@ -2051,99 +2019,6 @@ class InputterPage extends ConsumerWidget {
                                     ],
                                   ),
                                 ),
-                                // Row(
-                                //   children: [
-                                //     const Text(
-                                //       'B',
-                                //       style: TextStyle(
-                                //         fontSize: 40,
-                                //       ),
-                                //     ),
-                                //     // Container(
-                                //     //   width: 40,
-                                //     //   height: 40,
-                                //     //   decoration: BoxDecoration(
-                                //     //     border: Border.all(color: Colors.black),
-                                //     //     shape: BoxShape.circle,
-                                //     //     color: Colors.green,
-                                //     //   ),
-                                //     // ),
-                                //     Container(
-                                //       width: 40,
-                                //       height: 40,
-                                //       decoration: BoxDecoration(
-                                //         border: Border.all(color: Colors.black),
-                                //         shape: BoxShape.circle,
-                                //         color: Colors.green,
-                                //       ),
-                                //     ),
-                                //     Container(
-                                //       width: 40,
-                                //       height: 40,
-                                //       decoration: BoxDecoration(
-                                //         border: Border.all(color: Colors.black),
-                                //         shape: BoxShape.circle,
-                                //         color: Colors.green,
-                                //       ),
-                                //     ),
-                                //   ],
-                                // ),
-                                // Row(
-                                //   children: [
-                                //     const Text(
-                                //       'S',
-                                //       style: TextStyle(
-                                //         fontSize: 40,
-                                //       ),
-                                //     ),
-                                //     Container(
-                                //       width: 40,
-                                //       height: 40,
-                                //       decoration: BoxDecoration(
-                                //         border: Border.all(color: Colors.black),
-                                //         shape: BoxShape.circle,
-                                //         color: Colors.yellow,
-                                //       ),
-                                //     ),
-                                //     Container(
-                                //       width: 40,
-                                //       height: 40,
-                                //       decoration: BoxDecoration(
-                                //         border: Border.all(color: Colors.black),
-                                //         shape: BoxShape.circle,
-                                //         color: Colors.yellow,
-                                //       ),
-                                //     ),
-                                //   ],
-                                // ),
-                                // Row(
-                                //   children: [
-                                //     const Text(
-                                //       'O',
-                                //       style: TextStyle(
-                                //         fontSize: 40,
-                                //       ),
-                                //     ),
-                                //     Container(
-                                //       width: 40,
-                                //       height: 40,
-                                //       decoration: BoxDecoration(
-                                //         border: Border.all(color: Colors.black),
-                                //         shape: BoxShape.circle,
-                                //         color: Colors.red,
-                                //       ),
-                                //     ),
-                                //     Container(
-                                //       width: 40,
-                                //       height: 40,
-                                //       decoration: BoxDecoration(
-                                //         border: Border.all(color: Colors.black),
-                                //         shape: BoxShape.circle,
-                                //         color: Colors.red,
-                                //       ),
-                                //     ),
-                                //   ],
-                                // ),
                               ],
                             ),
                           ),
