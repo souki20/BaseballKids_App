@@ -15,7 +15,7 @@ class InputterConfirm extends ConsumerWidget {
       appBar: AppBar(
         // title: const Text('野球小僧'),
         title: Image.asset(
-          'images/yakyukozo_logo.png',
+          'assets/icons/yakyukozo_logo.png',
           height: 50,
         ),
         // title: Center(
@@ -1851,14 +1851,6 @@ class InputterPage extends ConsumerWidget {
                                                     FirebaseFirestore.instance.collection(game_name).doc('board').update({
                                                       'count_ball' : ref.watch(CountBallOpacityList)
                                                     });
-                                                    // print(ref.watch(Count.state).state);
-                                                    // if(count_ball_opacity_list[index] == 0.3) {
-                                                    //   count_ball_opacity_list[index] = 1.0;
-                                                    //   ref.read(CountBallOpacityList.state).state = [...count_ball_opacity_list];
-                                                    // } else {
-                                                    //   count_ball_opacity_list[index] = 0.3;
-                                                    //   ref.read(CountBallOpacityList.state).state = [...count_ball_opacity_list];
-                                                    // }
                                                   },
                                                   child: Container(
                                                     width: 38,
@@ -2050,9 +2042,7 @@ class InputterPage extends ConsumerWidget {
                             child: Stack(
                               children: [
                                 Image.asset(
-                                  // 'images/野球場イラスト1.png',
-                                  'images/baseball_ground_illustration.jpeg',
-                                  // '../images/baseball_ground_illustration.jpeg',
+                                  'assets/images/baseball_ground_illustration.jpeg',
                                 ),
                                 Align(
                                     alignment: Alignment.centerRight,

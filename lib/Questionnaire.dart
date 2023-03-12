@@ -102,7 +102,7 @@ class InputterQuestionnaier extends ConsumerWidget {
       appBar: AppBar(
         // title: const Text('野球小僧'),
         title: Image.asset(
-          'images/yakyukozo_logo.png',
+          'assets/icons/yakyukozo_logo.png',
           height: 50,
         ),
       ),
@@ -387,7 +387,7 @@ class ViewerQuestionnaier extends ConsumerWidget {
       appBar: AppBar(
         // title: const Text('野球小僧'),
         title: Image.asset(
-          'images/yakyukozo_logo.png',
+          'assets/icons/yakyukozo_logo.png',
           height: 50,
         ),
       ),

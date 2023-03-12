@@ -1008,7 +1008,7 @@ class ViewerPage extends ConsumerWidget {
                           child: Stack(
                             children: [
                               Image.asset(
-                                'images/baseball_ground_illustration.jpeg',
+                                'assets/images/baseball_ground_illustration.jpeg',
                               ),
                               Align(
                                 alignment: Alignment.centerRight,
